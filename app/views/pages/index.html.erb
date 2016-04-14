@@ -9,5 +9,5 @@
 </h3>
 <%= render "header" %>
 
-<%= react_component('RouterApp', props: render(template: "/comments/index.json.jbuilder"),
-    prerender: true, raise_on_prerender_error: true) %>
+<%= react_component('RouterApp',
+    prerender: false, raise_on_prerender_error: true) %>

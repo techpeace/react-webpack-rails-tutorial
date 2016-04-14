@@ -14,7 +14,7 @@ ReactOnRails.configure do |config|
   config.server_bundle_js_file = "server-bundle.js" # This is the default
 
   # Below options can be overriden by passing to the helper method.
-  config.prerender = true # default is false
+  config.prerender = false # default is false
   config.trace = Rails.env.development? # default is true for development, off otherwise
 
   # For server rendering. This can be set to false so that server side messages are discarded.
