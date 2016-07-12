@@ -39,6 +39,10 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
+  # Uncomment the below, and the broken `image_tag` in `app/views/pages/index.html.erb`
+  # will work
+  # config.public_file_server.enabled
+
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
